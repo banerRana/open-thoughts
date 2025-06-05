@@ -77,6 +77,14 @@ Set HF_ORG to your organization id. Set HF_PRIVATE=true if you want to push to a
 export HF_ORG=your_org_id
 export HF_PRIVATE=false
 ```
+# OpenThoughts3-1.2M Data Generation
+The [OpenThoughts3-1.2M](https://huggingface.co/datasets/open-thoughts/OpenThoughts3-1.2M) dataset consists of 850,000 math questions, 250,000 code questions, and 100,000 science questions. As opposed to previous OpenThoughts models that used R1 annotations, OpenThoughts3's reasoning traces are generated with QwQ-32B. This dataset is the result of 1000+ experiments to test out various design choices involved in dataset curation. More details can be found in our [OpenThoughts paper](https://arxiv.org/abs/2506.04178). 
+
+<picture>
+    <source media="(prefers-color-scheme: light)" width="100%" srcset="images/openthoughts3-diagram.png">
+    <img alt="Data Curation Recipe" width="100%" src="images/openthoughts3-diagram_dark.png">
+</picture>
+
 
 # OpenThoughts2-1M Data Generation
 The [OpenThoughts2-1M](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M) dataset is a combination of [OpenThoughts-114k](https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k), [OpenR1-Math](https://huggingface.co/datasets/open-r1/OpenR1-Math-Raw), and our newly generated math and code reasoning data. We generate the additional math and code data by ablating on 26 different question generation methodologies and sampling from the highest performing ones.
