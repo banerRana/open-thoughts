@@ -43,29 +43,22 @@ Our first goal is to curate a reasoning dataset to train state-of-the-art small 
 - **[2025/01/22]** 🎉 [Bespoke-Stratos-17k dataset](https://huggingface.co/datasets/bespokelabs/Bespoke-Stratos-17k) and [Bespoke-Stratos-32B model](https://huggingface.co/bespokelabs/Bespoke-Stratos-32B) are [announced](https://www.bespokelabs.ai/blog/bespoke-stratos-the-unreasonable-effectiveness-of-reasoning-distillation).
 
 # Results
-Our [OpenThinker2-32B](https://huggingface.co/open-thoughts/OpenThinker2-32B) model trained on [OpenThoughts2-1M](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M) is the state of the art open-data reasoning model.
-
+Our [OpenThinker3-7B](https://huggingface.co/open-thoughts/OpenThinker3-7B) model trained on [OpenThoughts3-1.2M](https://huggingface.co/datasets/open-thoughts/OpenThoughts3-1.2M) is the state-of-the-art open-data 7B reasoning model.
 The numbers reported in the table below are evaluated with our open-source tool [Evalchemy](https://github.com/mlfoundations/Evalchemy).
 
-[OpenThinker2-32B](https://huggingface.co/open-thoughts/OpenThinker2-32B) vs other 32B models
-| Model                                                                                           | Data | AIME24 | AIME25 | AMC23 | MATH500 | GPQA-D | LCBv2 |
-| ----------------------------------------------------------------------------------------------- | ---- | ------ | ------ | ----- | ------- | ------ | ----- |
-| [OpenThinker2-32B](https://huggingface.co/open-thoughts/OpenThinker2-32B)                       | ✅    | 76.7   | 58.7   | 94.0  | 90.8    | 64.1   | 72.5  |
-| [OpenThinker-32B](https://huggingface.co/open-thoughts/OpenThinker-32B)                         | ✅    | 68.0   | 49.3   | 95.5  | 90.6    | 63.5   | 68.6  |
-| [DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | ❌    | 74.7   | 50.0   | 96.5  | 90.0    | 65.8   | 72.3  |
-| [Light-R1-32B](https://huggingface.co/qihoo360/Light-R1-32B)                                    | ✅    | 74.7   | 58.0   | 96.0  | 90.4    | 62.0   | 56.0  |
-| [S1.1-32B](https://huggingface.co/simplescaling/s1.1-32B)                                       | ✅    | 59.3   | 42.7   | 91.5  | 87.4    | 62.0   | 58.7  |
+| Model                                                                                           | Data  | AIME24 | AIME25 |  AMC23 | MATH500 | HMMT O2/25 | LCB 06/24-01/25 | CodeElo | CodeForces | GPQA-D | JEEBench |
+| ----------------------------------------------------------------------------------------------- | ----- | ------ | ------ | ------ | ------- | ---------- | --------------- | ------- | ---------- | ------ | -------- |
+| [OpenThinker-7B](https://huggingface.co/open-thoughts/OpenThinker-7B)                           | ✅    |  30.7  |  22.0  |  72.5  |   82.8  |   15.7     |    26.1         |  11.1   |  14.9      |  38.6  |  45.3    |
+| [OpenThinker2-7B](https://huggingface.co/open-thoughts/OpenThinker2-7B)                         | ✅    |  60.7  |  38.7  |  89.8  |   87.6  |   24.7     |    40.6         |  22.8   |  26.6      |  47.0  |  65.1    |
+| **[OpenThinker3-7B](https://huggingface.co/open-thoughts/OpenThinker3-7B)**                     | ✅    |**69.0**|**53.3**|**93.5**| **90.0**|   **42.7** |    **51.7**     |  31.0   |**32.2**    |  53.7  |**72.4**  |
+| [DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) | ❌    |  51.3  |  38.0  |  92.0  |   88.0  |   25.0     |    34.5         |  19.9   |  21.1      |  33.2  |  50.4    |
+| [OpenR1-Distill-7B](https://huggingface.co/open-r1/OpenR1-Distill-7B)                           | ✅    |  57.7  |  39.7  |  87.0  |   88.0  |   25.7     |    30.7         |  30.1   |  29.3      |**58.9**|  68.7    |
+| [Llama-3.1-Nemotron-Nano-8B-v1](https://huggingface.co/nvidia/Llama-3.1-Nemotron-Nano-8B-v1)    | ✅    |  62.0  |  48.0  |**94.0**|   89.4  |   26.7     |    **50.9**     |  30.9   |**32.9**    |  52.9  |  70.7    |
+| [AceReason-Nemotron-7B](https://huggingface.co/nvidia/AceReason-Nemotron-7B)                    | ✅    |**71.0**|  50.7  |**93.8**|   89.8  |   33.3     |    44.3         |**32.9** |**30.9**    |  52.9  |  64.3    |
 
-[OpenThinker2-7B](https://huggingface.co/open-thoughts/OpenThinker2-7B) vs other 7B models
-| Model                                                                                         | Data | AIME24 | AIME25 | AMC23 | MATH500 | GPQA-D | LCBv2       |
-| --------------------------------------------------------------------------------------------- | ---- | ------ | ------ | ----- | ------- | ------ | ----------- |
-| [OpenThinker2-7B](https://huggingface.co/open-thoughts/OpenThinker2-7B)                       | ✅    | 50.0   | 33.3   | 89.5  | 88.4    | 49.3   | 55.6        |
-| [OpenThinker-7B](https://huggingface.co/open-thoughts/OpenThinker-7B)                         | ✅    | 31.3   | 23.3   | 74.5  | 83.2    | 42.9   | 38.0        |
-| [DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) | ❌    | 57.3   | 33.3   | 92.0  | 89.6    | 47.3   | 48.4        |
-| [OlympicCoder-7B](https://huggingface.co/open-r1/OlympicCoder-7B)                             | ✅    | 20.7   | 15.3   | 63.0  | 74.8    | 25.3   | 55.4        |
-| [OpenR1-Qwen-7B](https://huggingface.co/open-r1/OpenR1-Qwen-7B)                               | ✅    | 48.7   | 34.7   | 88.5  | 87.8    | 21.2   | 9.5<br><br> |
 
-To mitigate variance in evaluation accuracy, we compute average scores over multiple evaluation runs with different seeds. We average over 5 runs for AIME and AMC, and 3 runs for the other tasks. No system prompt is used, the maximum token length is set to 32,768, and temperature is 0.7.
+To mitigate variance in evaluation accuracy, we compute average scores over multiple evaluation runs with different seeds. More details can be found in our OpenThoughts [paper](https://arxiv.org/abs/2506.04178).
+
 
 We are fully open-source. Our [model weights](https://huggingface.co/open-thoughts), [datasets](https://huggingface.co/open-thoughts), [data generation code](https://github.com/open-thoughts/open-thoughts), [evaluation code](https://github.com/mlfoundations/Evalchemy), and [training code](https://github.com/hiyouga/LLaMA-Factory) are all publicly available. 
 
