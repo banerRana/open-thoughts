@@ -26,6 +26,7 @@ Our first goal is to curate a reasoning dataset to train state-of-the-art small 
 
 
 # News
+- **[2025/06/04]** 🎉 OpenThinker3 is [released](https://www.openthoughts.ai/blog/ot3). 
 - **[2025/05/09]** 🎉 Join our [Discord community](https://discord.gg/F99aVBrG) to discuss OpenThoughts and connect with other users!
 - **[2025/04/07]** 🎉 [OpenThoughts2-1M dataset](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M) is the #1 trending dataset on Hugging Face.
 - **[2025/04/03]** 🎉 [OpenThinker2](https://www.open-thoughts.ai/blog/thinkagain) has arrived: [OpenThoughts2-1M](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M), [OpenThinker2-7B](https://huggingface.co/open-thoughts/OpenThinker2-7B), [OpenThinker2-32B](https://huggingface.co/open-thoughts/OpenThinker2-32B).
