@@ -26,7 +26,8 @@ Our first goal is to curate a reasoning dataset to train state-of-the-art small 
 
 
 # News
-- **[2025/06/04]** 🎉 OpenThinker3 is [released](https://www.openthoughts.ai/blog/ot3). 
+- **[2025/06/04]** 🎉🎉🎉 We release our OpenThoughts [paper](https://arxiv.org/abs/2506.04178)!
+- **[2025/06/04]** 🎉🎉🎉 [OpenThinker3](https://www.openthoughts.ai/blog/ot3) is released! 
 - **[2025/05/09]** 🎉 Join our [Discord community](https://discord.gg/F99aVBrG) to discuss OpenThoughts and connect with other users!
 - **[2025/04/07]** 🎉 [OpenThoughts2-1M dataset](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M) is the #1 trending dataset on Hugging Face.
 - **[2025/04/03]** 🎉 [OpenThinker2](https://www.open-thoughts.ai/blog/thinkagain) has arrived: [OpenThoughts2-1M](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M), [OpenThinker2-7B](https://huggingface.co/open-thoughts/OpenThinker2-7B), [OpenThinker2-32B](https://huggingface.co/open-thoughts/OpenThinker2-32B).
@@ -117,11 +118,11 @@ More instructions are in [open_thoughts/README.md](open_thoughts/README.md).
 Training and evaluation code coming soon.
 
 # Links
-- 📊 [OpenThoughts2 and OpenThinker2 Blog Post](https://www.open-thoughts.ai/blog/thinkagain)
+- 📝 [OpenThoughts Paper](https://arxiv.org/abs/2506.04178)
+- 📊 [OpenThoughts3-1.2M and OpenThinker3-7B Blog Post](https://www.open-thoughts.ai/blog/ot3)
 - 💻 [Open Thoughts GitHub Repository](https://github.com/open-thoughts/open-thoughts)
-- 🧠 [OpenThoughts2-1M dataset](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M)
-- 🤖 [OpenThinker2-7B model](https://huggingface.co/open-thoughts/OpenThinker2-7B)
-- 🤖 [OpenThinker2-32B model](https://huggingface.co/open-thoughts/OpenThinker2-32B)
+- 🧠 [OpenThoughts3-1.2M dataset](https://huggingface.co/datasets/open-thoughts/OpenThoughts3-1.2M)
+- 🤖 [OpenThinker3-7B model](https://huggingface.co/open-thoughts/OpenThinker3-7B)
 
 
 # About Us
@@ -131,11 +132,12 @@ We are a team of researchers and engineers from [Bespoke Labs](https://www.bespo
 # Sponsors
 Open Thoughts is supported by 
 - [Bespoke Labs](https://www.bespokelabs.ai/)
+- [Toyota Research Institute](https://www.tri.global)
 - [Lambda Labs](https://lambdalabs.com/)
 - [NSF IFML](https://www.ifml.institute/)
 - [UT Austin Machine Learning Lab](https://ml.utexas.edu/)
 - [Juelich Supercomputing Center](https://www.fz-juelich.de/en/ias/jsc)
-- [Toyota Research Institute](https://www.tri.global)
+
 
 # Community
 [Make an edit](https://github.com/open-thoughts/open-thoughts/edit/main/README.md) to add your project!
