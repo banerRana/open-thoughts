@@ -12,7 +12,7 @@
   <a href="https://huggingface.co/open-thoughts">
     <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Open%20Thoughts-blue?color=ffc107&logoColor=white&style=flat&link=https%3A%2F%2Fhuggingface.co/open-thoughts">
   </a>
-  <a href="https://discord.gg/F99aVBrG">
+  <a href="https://discord.gg/9DsKjFtdXp">
     <img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20Community-7289DA?style=flat&logo=discord&logoColor=white">
   </a>
   <br>
@@ -28,7 +28,7 @@ Our first goal is to curate a reasoning dataset to train state-of-the-art small 
 # News
 - **[2025/06/04]** 🎉🎉🎉 We release our OpenThoughts [paper](https://arxiv.org/abs/2506.04178)!
 - **[2025/06/04]** 🎉🎉🎉 [OpenThinker3](https://www.openthoughts.ai/blog/ot3) is released! 
-- **[2025/05/09]** 🎉 Join our [Discord community](https://discord.gg/F99aVBrG) to discuss OpenThoughts and connect with other users!
+- **[2025/05/09]** 🎉 Join our [Discord community](https://discord.gg/9DsKjFtdXp) to discuss OpenThoughts and connect with other users!
 - **[2025/04/07]** 🎉 [OpenThoughts2-1M dataset](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M) is the #1 trending dataset on Hugging Face.
 - **[2025/04/03]** 🎉 [OpenThinker2](https://www.open-thoughts.ai/blog/thinkagain) has arrived: [OpenThoughts2-1M](https://huggingface.co/datasets/open-thoughts/OpenThoughts2-1M), [OpenThinker2-7B](https://huggingface.co/open-thoughts/OpenThinker2-7B), [OpenThinker2-32B](https://huggingface.co/open-thoughts/OpenThinker2-32B).
 - **[2025/03/13]** 🎉 We release [an analysis of reasoning models](https://www.open-thoughts.ai/blog/aiw) on [Alice in Wonderland](https://github.com/LAION-AI/AIW).
@@ -143,7 +143,7 @@ Open Thoughts is supported by
 # Community
 [Make an edit](https://github.com/open-thoughts/open-thoughts/edit/main/README.md) to add your project!
 
-Join our [Discord community](https://discord.gg/F99aVBrG) to discuss OpenThoughts and connect with other users!
+Join our [Discord community](https://discord.gg/9DsKjFtdXp) to discuss OpenThoughts and connect with other users!
 
 What the open source community is building with OpenThoughts:
 
